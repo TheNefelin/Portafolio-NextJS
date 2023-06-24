@@ -1,0 +1,65 @@
+.card {
+  margin-top: 40px;
+  /* width: 350px; */
+  background: var(--card-back);
+  border: 2px solid var(--card-border);
+  border-radius: 15px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  color: var(--card-dot)
+}
+
+.dots {
+  display: flex;
+  column-gap: 0.5rem;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--card-dot);
+}
+
+.bottom {
+  margin: 2rem;
+  overflow-x: auto;
+  min-width: 30rem;
+  color: var(--card-color5);
+}
+
+.tab1 {
+  margin-left: 1rem;
+}
+
+.tab2 {
+  margin-left: 2rem;
+}
+
+.tab3 {
+  margin-left: 3rem;
+}
+
+.color1 {
+  color: var(--card-color2);
+}
+
+.color2 {
+  color: var(--card-color1);
+}
+
+.color3 {
+  color: var(--card-color3);
+}
+
+.color4 {
+  color: var(--card-color4);
+}
+
+.color5 {
+  color: var(--card-color5);
+}
