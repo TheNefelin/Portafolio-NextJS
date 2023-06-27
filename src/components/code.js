@@ -1,14 +1,6 @@
 import styles from './code.module.css'
-import data from '@/data/myExperience'
 
-const fetching = async () => {
-  const response = await fetch("https://bsite.net/metalflap/links");
-  return await response.json();
-}
-
-const prueba = await fetching();
-console.log(prueba)
-
+// data y modelo visual de la funcion Code()
 const myExperience = {
   tecnologies: ['C#', 'VB', 'JavaScript', 'CSS', 'HTML'],
   tools: ['.NET', '.NET Core', 'VSCode'],
@@ -30,27 +22,12 @@ const myExperience = {
   }
 }
 
-// console.log("-------------------------------")
-// console.log(data[0].tecnologies)
-// console.log(data[0].tools)
-// console.log(data[0].webProyects.frontEnd.js)
-// console.log(data[0].webProyects.frontEnd.css)
-// console.log(data[0].webProyects.backEnd.js)
-// console.log(data[0].webProyects.backEnd.cSharp)
-// console.log(data[0].desktopProjects.fullstack.vb)
-// console.log(data[0].desktopProjects.fullstack.cSharp)
-// console.log("-------------------------------")
-// console.log(myExperience)
-// console.log("-------------------------------")
-// console.log(data[0])
-// console.log("-------------------------------")
-
 const arr = (props) => {
   return (
     <>
       {props.map((e, index) => {
         return (
-          <span className={styles.color3}>
+          <span key={index} className={styles.color3}>
             {` ${e}`}
             {(index < props.length -1 ? <span className={styles.color5}>,</span> : null )}
           </span>
