@@ -7,8 +7,8 @@ const renderLinks = (props) => {
       {props.map((e, index) => 
         <div key={index}>
           <p>{e.nombre}</p>
-          {e.links.map((l) => 
-            <a>{l.nombre}</a>
+          {e.links.map((l, i) => 
+            <a key={i}>{l.nombre}</a>
           )}
         </div>
       )}
