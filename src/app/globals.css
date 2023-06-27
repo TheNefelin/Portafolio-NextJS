@@ -1,6 +1,6 @@
 :root {
-  --link: red;
-  --link-back: blue;
+  --link: rgb(255, 255, 255);
+  --link-hover: rgb(255, 102, 102);
 
   --card-back: rgb(31, 31, 31);
   --card-border: rgb(0, 0, 0);
@@ -10,6 +10,9 @@
   --card-color3: rgb(206, 145, 120);
   --card-color4: yellow;
   --card-color5: rgb(235, 235, 235);
+
+  --footer: rgb(0, 255, 255);
+  --footer-back: rgb(102, 102, 102);
 }
 
 * {

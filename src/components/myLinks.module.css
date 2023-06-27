@@ -1,0 +1,28 @@
+.seccion {
+  padding-top: 1rem;
+  color: var(--footer);
+  background-color: var(--footer-back);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100% , 15rem), 1fr));
+}
+
+.seccion div {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.seccion p {
+  font-size: 1.1rem;
+  color: var(--color04);
+}
+
+.seccion a {
+  color: var(--link);
+  cursor: pointer;
+}
+
+.seccion a:hover {
+  color: var(--link-hover);
+}

@@ -1,12 +1,12 @@
 import Code from "@/components/code"
-import Links from "@/components/links"
+import MyLinks from "@/components/myLinks"
 
 export default function Home() {
   return (
     <main>
       <section>
         <Code />
-        <Links />
+        <MyLinks />
       </section>
     </main>
   )
