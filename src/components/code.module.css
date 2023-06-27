@@ -1,9 +1,8 @@
 .card {
-  margin-top: 40px;
-  /* width: 350px; */
   background: var(--card-back);
   border: 2px solid var(--card-border);
   border-radius: 15px;
+  /* overflow-x: auto; */
 }
 
 .top {
@@ -19,16 +18,14 @@
 }
 
 .dot {
-  width: 15px;
-  height: 15px;
+  width: 1rem;
+  height: 1rem;
   border-radius: 50%;
   background-color: var(--card-dot);
 }
 
 .bottom {
-  margin: 2rem;
-  overflow-x: auto;
-  min-width: 30rem;
+  margin: 1.5rem;
   color: var(--card-color5);
 }
 
