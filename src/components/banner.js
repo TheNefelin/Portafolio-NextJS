@@ -39,7 +39,7 @@ export default function Banner() {
       </div>
       <div className={styles.txt}>
         <h1>{`Hi, I'm Francisco Carmona`}</h1>
-        <p>A SOFTWARE DEVELOPER</p>
+        <p>{`A SOFTWARE DEVELOPER`}</p>
       </div>
     </div>
   )
