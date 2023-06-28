@@ -17,12 +17,3 @@
   font-size: 1.1rem;
   color: var(--color04);
 }
-
-.seccion a {
-  color: var(--link);
-  cursor: pointer;
-}
-
-.seccion a:hover {
-  color: var(--link-hover);
-}

@@ -8,7 +8,7 @@ const renderLinks = (props) => {
         <div key={index}>
           <p>{e.nombre}</p>
           {e.links.map((l, i) => 
-            <a key={i}>{l.nombre}</a>
+            <a key={i} href={l.link} target='_blank'>{l.nombre}</a>
           )}
         </div>
       )}

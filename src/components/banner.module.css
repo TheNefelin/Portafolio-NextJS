@@ -1,0 +1,45 @@
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.banner {
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+}
+
+.banner > div {
+  display: flex;
+  gap: 1rem;
+  background-color: var(--banner-back);
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.banner a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.bannerImg {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.txt {
+  font-size: 2rem;
+}
+
+.img {
+  object-fit: cover;
+  object-position: 0 25%;
+  border-radius: 50%;
+  border: solid 1px var(--banner-border);
+}

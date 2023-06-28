@@ -1,12 +1,18 @@
 :root {
-  --link: rgb(255, 255, 255);
-  --link-hover: rgb(255, 102, 102);
+  --body: rgb(255, 255, 255);
+  --body-back: rgb(22, 22, 22);
 
-  --card-back: rgb(31, 31, 31);
+  --banner-border: rgb(167, 167, 167);
+  --banner-back: rgba(31, 31, 31, 0.5);
+
+  --link: rgb(255, 255, 255);
+  --link-hover: rgb(247, 95, 143);
+
+  --card-back: rgba(31, 31, 31, 0.9);
   --card-border: rgb(0, 0, 0);
   --card-dot: rgb(173, 255, 47);
   --card-color1: rgb(152, 220, 254);
-  --card-color2: rgb(218, 112, 214);
+  --card-color2: rgb(247, 95, 143);
   --card-color3: rgb(206, 145, 120);
   --card-color4: yellow;
   --card-color5: rgb(235, 235, 235);
@@ -19,6 +25,21 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  color: var(--body);
+  background-color: var(--body-back);
+}
+
+a {
+  text-decoration: none;
+  color: var(--link);
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--link-hover);
 }
 
 @media (max-width: 767.98px) {
