@@ -2,6 +2,8 @@
   background: var(--card-back);
   border: 2px solid var(--card-border);
   border-radius: 15px;
+  max-width: 50rem;
+  margin: auto;
   /* overflow-x: auto; */
 }
 

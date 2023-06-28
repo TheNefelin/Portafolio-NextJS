@@ -23,7 +23,7 @@ export const myExperience = {
 export const myLinks = [
   {
     id: 1,
-    nombre: "Mis Links",
+    nombre: "My Links",
     orden: 1,
     estado: true,
     links: [
@@ -73,7 +73,7 @@ export const myLinks = [
   },
   {
     id: 2,
-    nombre: "Links para Aprender",
+    nombre: "Links for Learning",
     orden: 2,
     estado: true,
     links: [
@@ -117,7 +117,7 @@ export const myLinks = [
   },
   {
     id: 3,
-    nombre: "Links para Hosting",
+    nombre: "Links for Hosting",
     orden: 3,
     estado: true,
     links: [
@@ -155,7 +155,7 @@ export const myLinks = [
   },
   {
     id: 4,
-    nombre: "Links para Imagenes",
+    nombre: "Links for Images",
     orden: 4,
     estado: true,
     links: [
@@ -199,7 +199,7 @@ export const myLinks = [
   },
   {
     id: 5,
-    nombre: "Herramientas",
+    nombre: "Tools",
     orden: 5,
     estado: true,
     links: [

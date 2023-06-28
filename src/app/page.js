@@ -3,13 +3,11 @@ import styles from './page.module.css'
 
 import Banner from '@/components/banner'
 import Code from "@/components/code"
-import MyLinks from "@/components/myLinks"
 import imgBanner from "@/assets/fondo_banner2.png"
 
 export default function Home() {
   return (
-    <main>
-      <section className={styles.section}>
+    <main className={styles.main}>
         <Image
           className={styles.img}
           src={imgBanner}
@@ -17,18 +15,12 @@ export default function Home() {
           style={{objectFit:"cover"}}
           alt='background image'
         />
-        <div>
+        <div className={styles.banner}>
           <Banner />
         </div>
-        <div>
+        <div className={styles.code}>
           <Code />
-          <Code />
-
-          <Code />
-
-
         </div>
-      </section>
     </main>
   )
 }

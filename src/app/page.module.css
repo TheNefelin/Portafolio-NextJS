@@ -1,11 +1,16 @@
-.section {
-
-}
-
-.section > div {
+.main {
   margin: 0.5rem;
 }
 
 .img {
   z-index: -1;
+}
+
+.banner {
+  padding-top: 3rem;
+  
+}
+
+.code {
+  padding-top: 1rem;
 }

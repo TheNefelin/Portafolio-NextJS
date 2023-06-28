@@ -16,8 +16,7 @@ export default function Banner() {
           alt="Francisco Carmona"
         />
         <div>
-          <a>
-            GitHub
+          <a href="https://github.com/TheNefelin/" target="_blank">GitHub
             <Image
               src={imgGitHub}
               width={30}
@@ -25,8 +24,7 @@ export default function Banner() {
               alt="GitHub"
             />
           </a>
-          <a>
-            LinkedIn
+          <a href="https://www.linkedin.com/in/nefelin/" target="_blank">LinkedIn
             <Image
               src={imgLinkedIn}
               width={30}
