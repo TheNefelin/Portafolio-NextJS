@@ -3,7 +3,7 @@
   color: var(--footer);
   background-color: var(--footer-back);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100% , 15rem), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(100% , 12rem), 1fr));
 }
 
 .seccion div {

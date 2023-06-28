@@ -1,8 +1,8 @@
 import styles from "@/components/banner.module.css"
 import Image from "next/image"
-import imgPerfil from "@/assets/perfil.jpg"
-import imgGitHub from "@/assets/github.png"
-import imgLinkedIn from "@/assets/linkedin.png"
+import imgPerfil from "@/assets/b-perfil.jpg"
+import imgGitHub from "@/assets/b-github.png"
+import imgLinkedIn from "@/assets/b-linkedin.png"
 
 export default function Banner() {
   return (

@@ -10,7 +10,7 @@
   --link: rgb(255, 255, 255);
   --link-hover: rgb(247, 95, 143);
 
-  --card-back: rgba(31, 31, 31, 0.9);
+  --card-back: rgba(31, 31, 31, 0.6);
   --card-border: rgb(0, 0, 0);
   --card-dot: rgb(173, 255, 47);
   --card-color1: rgb(152, 220, 254);
@@ -19,7 +19,10 @@
   --card-color4: yellow;
   --card-color5: rgb(235, 235, 235);
 
-  --footer: rgb(0, 255, 255);
+  --project-back: rgba(0, 0, 0, 0.541);
+  --project-shadow: rgba(36, 95, 255, 0.664);
+
+  --footer: #00e1ff;
   --footer-back: rgb(102, 102, 102);
 }
 

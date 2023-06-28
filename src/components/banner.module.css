@@ -19,6 +19,7 @@
   background-color: var(--banner-back);
   padding: 0.5rem;
   border-radius: 4px;
+  backdrop-filter: blur(8px);
 }
 
 .banner a {

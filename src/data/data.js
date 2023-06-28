@@ -244,3 +244,15 @@ export const myLinks = [
     ]
   }
 ]
+
+export const projects = [
+  {
+    nombre: "Tecno Chile",
+    orden: 1,
+    img: "",
+    git: "https://github.com/TheNefelin/portafolio-site",
+    link: "https://nefelin-portafolio.netlify.app",
+    tec: "JS HTML CSS",
+    desc: ""
+  }
+]

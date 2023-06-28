@@ -4,14 +4,14 @@
   border-radius: 15px;
   max-width: 50rem;
   margin: auto;
-  /* overflow-x: auto; */
+  backdrop-filter: blur(8px);
 }
 
 .top {
   display: flex;
   justify-content: space-between;
   margin: 1rem;
-  color: var(--card-dot)
+  color: var(--card-dot);
 }
 
 .dots {
