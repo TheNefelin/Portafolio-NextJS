@@ -47,13 +47,14 @@ export default function Code() {
           <div className={styles.tab3}><span className={styles.color2}>{`js: `}</span><span className={styles.color4}>{` [ `}{arr(myExperience.webProyects.backEnd.js)}{` ]`}</span>{`,`}</div>
           <div className={styles.tab3}><span className={styles.color2}>{`cSharp: `}</span><span className={styles.color4}>{` [ `}{arr(myExperience.webProyects.backEnd.cSharp)}{` ]`}</span></div>
           <div className={styles.tab2}><span className={styles.color1}>{`}`}</span></div>
-          <div className={styles.tab1}><span className={styles.color1}>{`}`}</span></div>
+          <div className={styles.tab1}><span className={styles.color1}>{`}`}</span>{`,`}</div>
           <div className={styles.tab1}><span className={styles.color2}>{`desktopProjects: `}</span><span className={styles.color1}>{`{`}</span></div>
           <div className={styles.tab2}><span className={styles.color2}>{`fullstack: `}</span><span className={styles.color1}>{`{`}</span></div>
           <div className={styles.tab3}><span className={styles.color2}>{`vb: `}</span><span className={styles.color4}>{` [ `}{arr(myExperience.desktopProjects.fullstack.vb)}{` ]`}</span>{`,`}</div>
           <div className={styles.tab3}><span className={styles.color2}>{`cSharp: `}</span><span className={styles.color4}>{` [ `}{arr(myExperience.desktopProjects.fullstack.cSharp)}{` ]`}</span></div>
           <div className={styles.tab2}><span className={styles.color1}>{`}`}</span></div>
-          <div className={styles.tab1}><span className={styles.color1}>{`}`}</span></div>
+          <div className={styles.tab1}><span className={styles.color1}>{`}`}</span>{`,`}</div>
+          <div className={styles.tab1}><span className={styles.color2}>{`databases: `}</span><span className={styles.color4}>{` [ `}{arr(myExperience.databases)}{` ]`}</span></div>
           <div><span className={styles.color1}>{`}`}</span></div>
         </div>
       </div>    

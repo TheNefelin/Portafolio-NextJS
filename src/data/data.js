@@ -16,7 +16,8 @@ export const myExperience = {
       vb: ['.NET Framework'],
       cSharp: ['Dapper', '.NET Core 5', '.NET Core 6']
     }
-  }
+  },
+  databases: [ 'SQL Server', 'MySQL', 'PostgreSQL' ]
 }
 
 export const myLinks = [

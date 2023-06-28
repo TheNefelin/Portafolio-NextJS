@@ -19,7 +19,6 @@ export default function Banner() {
           <a>
             GitHub
             <Image
-              className={styles.bannerImg}
               src={imgGitHub}
               width={30}
               height={30}
@@ -38,7 +37,7 @@ export default function Banner() {
         </div>
       </div>
       <div className={styles.txt}>
-        <h1>{`Hi, I'm Francisco Carmona`}</h1>
+        <h1>{`Hi, I'm Francisco`}</h1>
         <p>{`A SOFTWARE DEVELOPER`}</p>
       </div>
     </div>

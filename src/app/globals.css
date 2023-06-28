@@ -1,9 +1,11 @@
 :root {
   --body: rgb(255, 255, 255);
   --body-back: rgb(22, 22, 22);
+  --body-transp: rgba(255, 255, 255, 0);
 
-  --banner-border: rgb(167, 167, 167);
+  --banner-color: rgb(238, 238, 238);
   --banner-back: rgba(31, 31, 31, 0.5);
+  --banner-border: rgb(167, 167, 167);
 
   --link: rgb(255, 255, 255);
   --link-hover: rgb(247, 95, 143);

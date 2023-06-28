@@ -28,13 +28,10 @@
   gap: 0.5rem;
 }
 
-.bannerImg {
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-
 .txt {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  color: var(--banner-color);
+  filter: drop-shadow(0 0 0.75rem var(--banner-back));
 }
 
 .img {

@@ -4,7 +4,7 @@ import styles from './page.module.css'
 import Banner from '@/components/banner'
 import Code from "@/components/code"
 import MyLinks from "@/components/myLinks"
-import imgBanner from "@/assets/fondo_banner2.jpg"
+import imgBanner from "@/assets/fondo_banner2.png"
 
 export default function Home() {
   return (
@@ -22,6 +22,11 @@ export default function Home() {
         </div>
         <div>
           <Code />
+          <Code />
+
+          <Code />
+
+
         </div>
       </section>
     </main>
