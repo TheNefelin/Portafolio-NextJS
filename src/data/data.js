@@ -246,18 +246,18 @@ export const myLinks = [
 ]
 
 export const projects = [
-  {
-    nombre: "Developing... ",
-    orden: 100,
-    caratula: "00-loading.gif",
-    caratulaIndex: 0,
-    lenguajes: [],
-    lenguajesIndex: [],
-    tecnologias: [],
-    tecnologiasIndex: [],
-    web: ["#"],
-    gitHub: ["#"]
-  },
+  // {
+  //   nombre: "Developing... ",
+  //   orden: 100,
+  //   caratula: "00-loading.gif",
+  //   caratulaIndex: 0,
+  //   lenguajes: [],
+  //   lenguajesIndex: [],
+  //   tecnologias: [],
+  //   tecnologiasIndex: [],
+  //   web: ["#"],
+  //   gitHub: ["#"]
+  // },
   {
     nombre: "Portafolio V1.0",
     orden: 4,
