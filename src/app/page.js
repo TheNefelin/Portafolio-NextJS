@@ -13,7 +13,7 @@ export default function Home() {
         className={styles.img}
         src={imgBanner}
         fill={true}
-        style={{ objectFit: "cover" }}
+        style={{ objectFit: "cover", objectPosition: "left bottom" }}
         alt='background image'
       />
       <div className={styles.banner}>
@@ -23,6 +23,7 @@ export default function Home() {
         <Code />
       </div>
       <div className={styles.projects}>
+        <p><strong>{`const someProjects = ( props ) => { ...`}</strong></p>
         <Projects />
       </div>
     </main>

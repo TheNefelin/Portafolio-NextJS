@@ -1,4 +1,8 @@
 .section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100% , 15rem), 1fr));
+  row-gap: 1rem;
+
   /* background-color: var(--project-back); */
   backdrop-filter: blur(8px);
 }
@@ -8,6 +12,7 @@
   height: 300px;
   width: 200px;
   perspective: 1000px;
+  margin: auto;
 }
 
 .cardInner {

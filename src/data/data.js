@@ -247,12 +247,63 @@ export const myLinks = [
 
 export const projects = [
   {
+    nombre: "Developing... ",
+    orden: 100,
+    caratula: "00-loading.gif",
+    caratulaIndex: 0,
+    lenguajes: [],
+    lenguajesIndex: [],
+    tecnologias: [],
+    tecnologiasIndex: [],
+    web: ["#"],
+    gitHub: ["#"]
+  },
+  {
+    nombre: "Portafolio V1.0",
+    orden: 4,
+    caratula: "02-portafolio-v1.jpg",
+    caratulaIndex: 2,
+    lenguajes: ["00-l-csharp.svg", "01-l-css.png", "02-l-html.png", "03-l-javascript.svg"],
+    lenguajesIndex: [0, 1, 2, 3],
+    tecnologias: [],
+    tecnologiasIndex: [],
+    web: ["https://nefelin-portafolio.netlify.app"],
+    gitHub: ["https://github.com/TheNefelin/portafolio-site"]
+  },
+  {
+    nombre: "Kartax v1.0",
+    orden: 3,
+    caratula: "01-kartax-v1.jpg",
+    caratulaIndex: 1,
+    lenguajes: ["00-l-csharp.svg", "01-l-css.png", "02-l-html.png", "03-l-javascript.svg",""],
+    lenguajesIndex: [0, 1, 2, 3],
+    tecnologias: [],
+    tecnologiasIndex: [],
+    web: ["https://kartax.netlify.app"],
+    gitHub: ["https://github.com/TheNefelin/kartax-ant"]
+  },
+  {
+    nombre: "Web Components v1.0",
+    orden: 2,
+    caratula: "04-web-components-v1.jpg",
+    caratulaIndex: 4,
+    lenguajes: ["00-l-csharp.svg", "01-l-css.png", "02-l-html.png", "03-l-javascript.svg",""],
+    lenguajesIndex: [0, 1, 2, 3],
+    tecnologias: [],
+    tecnologiasIndex: [],
+    web: ["https://kartax.netlify.app"],
+    gitHub: ["https://github.com/TheNefelin/my-web-components"]
+  },
+  {
     nombre: "Tecno Chile",
     orden: 1,
-    img: "",
-    git: "https://github.com/TheNefelin/portafolio-site",
-    link: "https://nefelin-portafolio.netlify.app",
-    tec: "JS HTML CSS",
-    desc: ""
-  }
+    caratula: "03-tecno-chile.jpg",
+    caratulaIndex: 3,
+    lenguajes: ["01-l-css.png", "02-l-html.png", "03-l-javascript.svg"],
+    lenguajesIndex: [1, 2, 3],
+    tecnologias: [],
+    tecnologiasIndex: [],
+    web: ["https://tecnochile.netlify.app"],
+    gitHub: ["https://github.com/TheNefelin/td_trabajo_grupal_03"]
+  },
 ]
