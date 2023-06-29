@@ -1,8 +1,8 @@
 .section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100% , 15rem), 1fr));
-  row-gap: 2rem;
-
+  gap: 2rem; 
+  
   /* background-color: var(--project-back); */
   backdrop-filter: blur(8px);
 }
@@ -10,11 +10,9 @@
 .card {
   background-color: transparent;
   height: 20rem;
-  width: 15rem;
-  /* min-width: 15rem; */
-  /* width: 20rem; */
-  /* width: minmax(15rem, 20rem); */
+  width: 100%;
   max-width: 20rem;
+  /* width: 15rem; */
   perspective: 1000px;
   margin: auto;
 }
@@ -27,6 +25,7 @@
   transform-style: preserve-3d;
   box-shadow: 0px 0px 10px 2px var(--project-shadow);
   border-radius: 5px;
+  text-align: center;
 }
 
 .card:hover .cardInner {

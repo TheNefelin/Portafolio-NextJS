@@ -19,8 +19,9 @@
   --card-color4: yellow;
   --card-color5: rgb(235, 235, 235);
 
-  --project-back: rgba(0, 0, 0, 0.541);
-  --project-shadow: rgba(36, 95, 255, 0.664);
+  --project-back: rgba(31, 31, 31, 0.5);
+  --project-shadow: rgb(255, 255, 255);
+  /* --project-shadow: rgba(36, 95, 255, 0.664); */
 
   --footer: #00e1ff;
   --footer-back: rgb(102, 102, 102);
