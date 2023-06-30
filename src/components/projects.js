@@ -24,8 +24,8 @@ const cardFront = (nombre, caratulaIndex, lenguajesIndex, tecnologiasIndex) => {
       <div className={styles.cardFrontContent}>
         <Image
           src={imgCoverList[caratulaIndex].default}
-          style={{ objectFit: "cover" }}
-          width={200}
+          style={{ objectFit: "cover", objectPosition: "top"  }}
+          // width={300}
           height={120}
           alt={nombre}
         />

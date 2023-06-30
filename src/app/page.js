@@ -5,6 +5,7 @@ import imgBanner from "@/assets/fondo_banner.png"
 import Banner from '@/components/banner'
 import Code from "@/components/code"
 import Projects from '@/components/projects'
+import Title from '@/components/title'
 
 export default function Home() {
   return (
@@ -23,11 +24,11 @@ export default function Home() {
         <Code />
       </div>
       <div className={styles.projects}>
-        <p><strong>{`const someProjects = ( props ) => { ...`}</strong></p>
+        <Title txt={"someProjects"}/>
         <Projects />
       </div>
       <div>
-    Otra Wea
+        QUE WEA
       </div>
     </main>
   )

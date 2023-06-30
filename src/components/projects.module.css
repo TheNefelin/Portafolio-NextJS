@@ -65,6 +65,11 @@
   justify-content: space-evenly;
 }
 
+.cardFrontContent > div {
+  display: grid;
+  place-items: center;
+}
+
 .cardBackLinks {
   display: grid;
   place-items: center;
