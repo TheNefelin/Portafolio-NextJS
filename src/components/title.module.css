@@ -2,3 +2,19 @@
   font-size: 1.8rem;
   font-weight: 600;
 }
+
+.color1 {
+  color: var(--title-color1);
+}
+
+.color2 {
+  color: var(--title-color2);
+}
+
+.color3 {
+  color: var(--title-color3);
+}
+
+.color4 {
+  color: var(--title-color4);
+}

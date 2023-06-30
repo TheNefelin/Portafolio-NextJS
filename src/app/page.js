@@ -24,7 +24,7 @@ export default function Home() {
         <Code />
       </div>
       <div className={styles.projects}>
-        <Title txt={"someProjects"}/>
+        <Title txt={"myProjects"}/>
         <Projects />
       </div>
       <div>
