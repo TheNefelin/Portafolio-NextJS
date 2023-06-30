@@ -5,7 +5,6 @@ import imgBanner from "@/assets/fondo_banner.png"
 import Banner from '@/components/banner'
 import Code from "@/components/code"
 import Projects from '@/components/projects'
-import Card01 from '@/components/card01'
 
 export default function Home() {
   return (
@@ -28,7 +27,7 @@ export default function Home() {
         <Projects />
       </div>
       <div>
-        <Card01/>
+    Otra Wea
       </div>
     </main>
   )

@@ -20,9 +20,12 @@
   --card-color4: yellow;
   --card-color5: rgb(235, 235, 235);
 
-  --project-back: rgba(31, 31, 31, 0.5);
-  --project-shadow: rgb(255, 255, 255);
-  /* --project-shadow: rgba(36, 95, 255, 0.664); */
+  --project-shadow: rgba(255, 255, 255, 0.2);
+  --project-border: rgb(58, 58, 58);
+  --project-color1: rgb(17, 17, 17);
+  --project-color2: rgb(14, 14, 14);
+  --project-color3: rgb(50, 30, 40);
+  --project-color4: rgb(206, 145, 120);
 
   --footer: #00e1ff;
   --footer-back: rgb(102, 102, 102);

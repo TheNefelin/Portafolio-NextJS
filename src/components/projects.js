@@ -21,15 +21,19 @@ const cardFront = (nombre, caratulaIndex, lenguajesIndex, tecnologiasIndex) => {
   return (
     <>
       <p className={styles.cardFrontTitle}>{nombre}</p>
-      <Image
-        src={imgCoverList[caratulaIndex].default}
-        style={{ objectFit: "cover" }}
-        width={200}
-        height={120}
-        alt={nombre}
-      />
-      {imglanguages(lenguajesIndex)}
-      {imgTechnologies(tecnologiasIndex)} 
+      <div className={styles.cardFrontContent}>
+        <Image
+          src={imgCoverList[caratulaIndex].default}
+          style={{ objectFit: "cover" }}
+          width={200}
+          height={120}
+          alt={nombre}
+        />
+        <div>
+          {imglanguages(lenguajesIndex)}
+          {imgTechnologies(tecnologiasIndex)}
+        </div>
+      </div>
     </>
   )
 }
@@ -53,7 +57,7 @@ const imglanguages = (props) => {
 // gets all image related to technologies for the cardFront
 const imgTechnologies = (props) => {
   return (
-    <>
+    <div>
       {props.map((e, index) => (
         <Image
           key={index}
@@ -62,7 +66,7 @@ const imgTechnologies = (props) => {
           height={50}
         />
       ))}
-    </>
+    </div>
   )
 }
 
