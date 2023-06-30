@@ -245,19 +245,7 @@ export const myLinks = [
   }
 ]
 
-export const projects = [
-  // {
-  //   nombre: "Developing... ",
-  //   orden: 100,
-  //   caratula: "00-loading.gif",
-  //   caratulaIndex: 0,
-  //   lenguajes: [],
-  //   lenguajesIndex: [],
-  //   tecnologias: [],
-  //   tecnologiasIndex: [],
-  //   web: ["#"],
-  //   gitHub: ["#"]
-  // },
+export const myProjects = [
   {
     nombre: "Portafolio V1.0",
     orden: 4,
