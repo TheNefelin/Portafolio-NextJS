@@ -1,6 +1,14 @@
 .section {
   font-size: 1.8rem;
   font-weight: 600;
+  background-color: var(--title-back);
+  border: 1px solid var(--title-border);
+  border-radius: 15px;
+  max-width: 50rem;
+  backdrop-filter: blur(8px);
+  margin: auto;
+  text-align: center;
+  padding: 1rem;
 }
 
 .color1 {

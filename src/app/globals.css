@@ -10,6 +10,8 @@
   --link: rgb(255, 255, 255);
   --link-hover: rgb(247, 95, 143);
 
+  --title-back: rgba(31, 31, 31, 0.6);
+  --title-border: rgb(0, 0, 0);
   --title-color1: rgb(247, 95, 143);
   --title-color2: rgb(255, 255, 0);
   --title-color3: rgb(206, 145, 120);
