@@ -265,10 +265,14 @@ export const projects = [
     caratulaIndex: 2,
     lenguajes: ["00-l-csharp.svg", "01-l-css.png", "02-l-html.png", "03-l-javascript.svg"],
     lenguajesIndex: [0, 1, 2, 3],
-    tecnologias: [],
-    tecnologiasIndex: [],
-    web: ["https://nefelin-portafolio.netlify.app"],
-    gitHub: ["https://github.com/TheNefelin/portafolio-site"]
+    tecnologias: ["08-t-vs-code.png", "09-t-vs-studio.svg"],
+    tecnologiasIndex: [8, 9],
+    web: [
+      { nombre: "Deploy Portafolio", link: "https://nefelin-portafolio.netlify.app"},
+    ],
+    gitHub: [
+      { nombre: "Repo Portafolio", link: "https://github.com/TheNefelin/portafolio-site"}
+    ]
   },
   {
     nombre: "Kartax v1.0",
@@ -278,9 +282,15 @@ export const projects = [
     lenguajes: ["00-l-csharp.svg", "01-l-css.png", "02-l-html.png", "03-l-javascript.svg",""],
     lenguajesIndex: [0, 1, 2, 3],
     tecnologias: [],
-    tecnologiasIndex: [],
-    web: ["https://kartax.netlify.app"],
-    gitHub: ["https://github.com/TheNefelin/kartax-ant"]
+    tecnologiasIndex: [1],
+    web: [
+      { nombre: "Deploy Kartax v1.0", link: "https://kartax.netlify.app"},
+      { nombre: "Deploy Kartax API", link: "https://kartax.netlify.app"},
+    ],
+    gitHub: [
+      { nombre: "Repo Kartax v1.0", link: "https://github.com/TheNefelin/kartax-ant"},
+      { nombre: "Repo Kartax API", link: "https://github.com/TheNefelin/kartax-ant"}
+    ]
   },
   {
     nombre: "Web Components v1.0",
@@ -290,9 +300,13 @@ export const projects = [
     lenguajes: ["00-l-csharp.svg", "01-l-css.png", "02-l-html.png", "03-l-javascript.svg",""],
     lenguajesIndex: [0, 1, 2, 3],
     tecnologias: [],
-    tecnologiasIndex: [],
-    web: ["https://kartax.netlify.app"],
-    gitHub: ["https://github.com/TheNefelin/my-web-components"]
+    tecnologiasIndex: [1],
+    web: [
+      { nombre: "Deploy Components v1.0", link: "https://kartax.netlify.app"},
+    ],
+    gitHub: [
+      { nombre: "Repo Components v1.0", link: "https://github.com/TheNefelin/my-web-components"}
+    ]
   },
   {
     nombre: "Tecno Chile",
@@ -302,8 +316,12 @@ export const projects = [
     lenguajes: ["01-l-css.png", "02-l-html.png", "03-l-javascript.svg"],
     lenguajesIndex: [1, 2, 3],
     tecnologias: [],
-    tecnologiasIndex: [],
-    web: ["https://tecnochile.netlify.app"],
-    gitHub: ["https://github.com/TheNefelin/td_trabajo_grupal_03"]
+    tecnologiasIndex: [1],
+    web: [
+      { nombre: "Deploy Components v1.0", link: "https://tecnochile.netlify.app"},
+    ],
+    gitHub: [
+      { nombre: "Repo Components v1.0", link: "https://github.com/TheNefelin/td_trabajo_grupal_03"}
+    ]
   },
 ]

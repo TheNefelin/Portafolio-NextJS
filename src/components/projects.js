@@ -1,36 +1,48 @@
 import Image from 'next/image'
 import styles from './projects.module.css'
 import { projects } from '@/data/data'
-
-import img from '@/assets/demo.jpg'
+import { Social02 } from '@/components/social'
+import imgGitHub from "@/assets/social/b-github.png"
+import imgLinkedIn from "@/assets/social/b-linkedin.png"
 
 const imgCover = require.context('@/assets/cover', true);
 const imgCoverList = imgCover.keys().map(image => imgCover(image));
-console.log(imgCoverList[0].default)
 
-const images = require.context('@/assets/languages', true);
-const imageList = images.keys().map(image => images(image));
+const imgLang = require.context('@/assets/languages', true);
+const imgLangList = imgLang.keys().map(image => imgLang(image));
 
-// const ImageGallery = () => {
-//   return (
-//     <div>
-//       {/* {projects.map((e, eIndex) => {
-//         console.log(e)
-//       })} */}
-//       {console.log("-----------------------")}
-//       {console.log(imageList[2].default)}
-//       {console.log("-----------------------")}
-//       {imageList.map((image, index) => (
-//         <Image
-//           key={index}
-//           src={image.default}
-//           alt={`image-${index}`}
-//           height={50}
-//         />
-//       ))}
-//     </div>
-//   );
-// }
+const imgTec = require.context('@/assets/technologies', true);
+const imgTecList = imgTec.keys().map(image => imgTec(image));
+
+const imglanguages = (props) => {
+  return (
+    <>
+      {props.map((e, index) => (
+        <Image
+          key={index}
+          src={imgLangList[e].default}
+          alt={`image-${index}`}
+          height={50}
+        />
+      ))}
+    </>
+  )
+}
+
+const imgTechnologies = (props) => {
+  return (
+    <>
+      {props.map((e, index) => (
+        <Image
+          key={index}
+          src={imgTecList[e].default}
+          alt={`image-${index}`}
+          height={50}
+        />
+      ))}
+    </>
+  )
+}
 
 const git = () => {
   return (
@@ -63,12 +75,11 @@ const cards = () => {
                 height={120}
                 alt={e.nombre}
               />
+              {imglanguages(e.lenguajesIndex)}
+              {imgTechnologies(e.tecnologiasIndex)}
             </div>
             <div className={styles.cardBack}>
-              <p>GitHub</p>
-                {git()}
-              <p>Web Deploy</p>
-                {web()}
+              <Social02 myWebLinks={e.web} myGitLinks={e.gitHub}/>
             </div>
           </div>
         </div>
