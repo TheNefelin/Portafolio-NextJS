@@ -17,3 +17,8 @@
   font-size: 1.1rem;
   color: var(--color04);
 }
+
+.dev {
+  padding: 0.5rem;
+  text-align: center;
+}

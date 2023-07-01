@@ -24,11 +24,12 @@ export default function Home() {
         <Code />
       </div>
       <div className={styles.projects}>
-        <Title txt={"myProjects"}/>
+        <Title txt={"someProjects"}/>
         <Projects />
       </div>
       <div>
-        QUE WEA
+        <Title txt={"someHobbies"}/>
+        UNDER CONSTRUCTION...
       </div>
     </main>
   )

@@ -20,6 +20,9 @@ export default function MyLinks() {
   return (
     <>
       {renderLinks(myLinks)}
+      <div className={styles.dev}>
+          © 2023 | @FranciscoDev
+      </div>
     </>
   )
 }
