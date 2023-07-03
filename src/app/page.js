@@ -14,7 +14,7 @@ export default function Home() {
         className={styles.img}
         src={imgBanner}
         fill={true}
-        style={{ objectFit: "cover", objectPosition: "left bottom" }}
+        // style={{ objectFit: "cover", objectPosition: "left bottom", backdropFilter: "blur(8px)" }}
         alt='background image'
       />
       <div className={styles.banner}>

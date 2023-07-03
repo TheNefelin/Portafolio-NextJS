@@ -29,7 +29,7 @@ export const myLinks = [
     links: [
       {
         nombre: "Portafolio",
-        link: "https://nefelin-portafolio.netlify.app/",
+        link: "https://portafolionext13.vercel.app/",
         idLinkGrupo: 1,
         estado: true
       },
@@ -130,6 +130,12 @@ export const myLinks = [
       {
         nombre: "Netlify",
         link: "https://www.netlify.com/",
+        idLinkGrupo: 3,
+        estado: true
+      },
+      {
+        nombre: "Vercel",
+        link: "https://vercel.com/",
         idLinkGrupo: 3,
         estado: true
       },
@@ -272,8 +278,8 @@ export const myProjects = [
     tecnologias: ["04-t-node.png", "05-t-react.svg", "10-t-nextjs.svg", "11-t-postgresql.png"],
     tecnologiasIndex: [4, 5, 10, 11],
     web: [
-      { nombre: "Deploy Portafolio 2.0", link: "https://nefelin.cl/"},
-      { nombre: "Deploy Portafolio 2.0", link: "https://franciscodev.up.railway.app/"},
+      { nombre: "Deploy Portafolio 2.0", link: "http://www.francisco-dev.cl/"},
+      { nombre: "Deploy Portafolio 2.0", link: "https://portafolionext13.vercel.app/"},
     ],
     gitHub: [ ]
   },

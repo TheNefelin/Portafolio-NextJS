@@ -4,6 +4,9 @@
 
 .img {
   z-index: -1;
+  object-fit: cover;
+  object-position: left bottom;
+  filter: blur(10px);
 }
 
 .banner {
