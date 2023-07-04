@@ -8,6 +8,7 @@ import Code from "@/components/code"
 import Title from '@/components/title'
 import Projects from '@/components/projects'
 import VideoYoutube from '@/components/videoYoutube'
+import Social from '@/components/social'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Banner />
       </div>
       <div className={styles.code}>
+        <Title txt={"someExperience"}/>
         <Code />
       </div>
       <div className={styles.projects}>
@@ -29,9 +31,9 @@ export default function Home() {
         <VideoYoutube />
       </div>
       <div>
-        
+        <Title txt={"someSocial"}/>
+        <Social />
       </div>
-      UNDER CONSTRUCTION...
     </main>
   )
 }

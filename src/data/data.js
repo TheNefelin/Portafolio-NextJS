@@ -316,7 +316,7 @@ export const myProjects = [
     ]
   },
   {
-    nombre: "Transbank POS Integration v1",
+    nombre: "Transbank POS Integration v1.0",
     orden: 6,
     caratula: "06-transbank-pos.png",
     caratulaIndex: 6,
