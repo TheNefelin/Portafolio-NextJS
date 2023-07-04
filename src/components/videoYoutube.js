@@ -1,14 +1,17 @@
 import styles from './videoYoutube.module.css'
+import { myYoutube } from '@/data/data'
 
-export default function VideoYoutube() {
+export default function VideoYoutube(props) {
   return (
-    <iframe
-      id="ytplayer"
-      type="text/html"
-      width="100%"
-      height="360"
-      src={`https://www.youtube.com/embed/0WsjRYgZMzs`}
-      frameborder="0"
-    />
+    <section className={styles.section}>
+      {myYoutube.map((e, index) => (
+        <iframe
+          key={index}
+          type="text/html"
+          frameborder="0"
+          src={`https://www.youtube.com/embed/${e.videoId}`}
+        />
+      ))}
+    </section>
   )
 }
