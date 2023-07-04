@@ -1,0 +1,8 @@
+.img {
+  z-index: -1;
+  object-fit: cover;
+  object-position: left bottom;
+  filter: blur(8px);
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, transparent 100%);
+  mask-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 1) 90%, transparent 100%);
+}

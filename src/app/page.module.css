@@ -1,23 +1,16 @@
-.main {
-  margin: 0.5rem;
-}
-
-.img {
-  z-index: -1;
-  object-fit: cover;
-  object-position: left bottom;
-  filter: blur(10px);
-}
-
 .banner {
-  padding-top: 3rem;
-  
+  padding-top: 4rem;
 }
 
 .code {
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 .projects {
   margin-top: 1rem;
+}
+
+.hobbie {
+  width: 100%;
+  position: relative;
 }

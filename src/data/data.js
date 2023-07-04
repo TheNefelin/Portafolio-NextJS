@@ -284,7 +284,7 @@ export const myProjects = [
     gitHub: [ ]
   },
   {
-    nombre: "Kartax v2.0",
+    nombre: "Kartax v2.0 (SERVER DOWN)",
     orden: 8,
     caratula: "08-kartax-v2.png",
     caratulaIndex: 8,
