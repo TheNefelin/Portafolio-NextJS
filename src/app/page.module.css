@@ -1,4 +1,4 @@
-/* .banner {
+.banner {
   padding-top: 4rem;
 }
 
@@ -7,10 +7,9 @@
 }
 
 .projects {
-  margin-top: 1rem;
+  margin: 1rem;
 }
 
 .hobbie {
-  width: 100%;
   position: relative;
-} */
+}

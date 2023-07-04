@@ -1,0 +1,39 @@
+.section {
+  display: flex;
+}
+
+.section > a {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.imgGitHub {
+  background-color: rgb(12, 39, 55);
+}
+
+.imgTwitch {
+  background-color: rgb(158, 67, 250);
+}
+
+.imgYoutube {
+  background-color: rgb(255, 1, 0);
+}
+
+.imgLinkedin {
+  background-color: rgb(2, 123, 189);
+}
+
+.section span {
+  display: grid;
+  place-items: center;
+  background-color: white;
+  height: 46px;
+  width: 46px;
+  border-radius: 50%;
+  margin: auto;
+  transition: transform .2s
+}
+
+.section a:hover > span {
+  transform: scale(1.1);
+}
