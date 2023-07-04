@@ -1,13 +1,5 @@
-.banner {
-  padding-top: 4rem;
-}
-
-.code {
+.main > div {
   padding: 1rem;
-}
-
-.projects {
-  margin: 1rem;
 }
 
 .hobbie {

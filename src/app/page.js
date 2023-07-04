@@ -12,28 +12,28 @@ import Social from '@/components/social'
 
 export default function Home() {
   return (
-    <main>
-      <ImgBackground img={imgBanner} alt={"background"}/>
+    <main className={styles.main}>
+      <ImgBackground img={imgBanner} alt={"background"} />
       <div className={styles.banner}>
         <Banner />
       </div>
       <div className={styles.code}>
-        <Title txt={"someExperience"}/>
+        <Title txt={"someExperience"} />
         <Code />
       </div>
       <div className={styles.projects}>
-        <Title txt={"someProjects"}/>
+        <Title txt={"someProjects"} />
         <Projects />
       </div>
       <div className={styles.hobbie}>
-        <ImgBackground img={imgMusic} alt={"background"}/>
-        <Title txt={"someHobbies"}/>
+        <ImgBackground img={imgMusic} alt={"background"} />
+        <Title txt={"someHobbies"} />
         <VideoYoutube />
       </div>
       <div>
-        <Title txt={"someSocial"}/>
-        <Social />
+        <Title txt={"someSocials"} />
       </div>
+      <Social />
     </main>
   )
 }
