@@ -1,6 +1,7 @@
 import styles from './page.module.css'
 import imgBanner from "@/assets/background/fondo_banner.jpg"
 import imgMusic from "@/assets/background/fondo_music.jpg"
+import Link from 'next/link'
 
 import ImgBackground from '@/components/imgBackground'
 import Banner from '@/components/banner'
@@ -14,10 +15,10 @@ export default function Home() {
   return (
     <main id='home' className={styles.main}>
       <section className={styles.menu}>
-        <a href='#home'>Home</a>
-        <a href='#someProjects'>Projects</a>
-        <a href='#someHobbies'>Hobbies</a>
-        <a href='#someSocials'>Socials</a>
+        <Link href='#home'>Home</Link>
+        <Link href='#someProjects'>Projects</Link>
+        <Link href='#someHobbies'>Hobbies</Link>
+        <Link href='#someSocials'>Socials</Link>
       </section>
 
       <ImgBackground img={imgBanner} alt={"background"} />
