@@ -23,17 +23,19 @@ export default function Home() {
         <Title txt={"someExperience"} />
         <Code />
       </div>
-      <div id="someProjects" className={styles.projects}>
+      <span id="someProjects"></span>
+      <div className={styles.projects}>
         <Title txt={"someProjects"} />
         <Projects />
       </div>
-      <div id="someHobbies"></div>
+      <span id="someHobbies"></span>
       <div className={styles.hobbie}>
         <ImgBackground img={imgMusic} alt={"background"} />
         <Title txt={"someHobbies"} />
         <VideoYoutube />
       </div>
-      <div id="someSocials">
+      <span id="someSocials"></span>
+      <div>
         <Title txt={"someSocials"} />
       </div>
       <Social />

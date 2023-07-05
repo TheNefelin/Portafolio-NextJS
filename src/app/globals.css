@@ -34,6 +34,12 @@
   --project-color3: rgb(50, 30, 40);
   --project-color4: rgb(206, 145, 120);
 
+  --social-color1: rgb(12, 39, 55);
+  --social-color2: rgb(158, 67, 250);
+  --social-color3: rgb(255, 1, 0);
+  --social-color4: rgb(2, 123, 189);
+  --social-color5: rgb(255, 255, 255);
+
   --footer: #00e1ff;
   --footer-back: rgb(102, 102, 102);
 }
