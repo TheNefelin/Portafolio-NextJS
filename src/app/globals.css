@@ -44,6 +44,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: var(--body);
   background-color: var(--body-back);
