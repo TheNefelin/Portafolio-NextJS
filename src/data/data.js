@@ -305,14 +305,14 @@ export const myProjects = [
   //   ]
   // },
   {
-    nombre: "Portafolio 2.0 UNDER CONSTRUCTION...",
+    nombre: "Portafolio 2.0",
     orden: 9,
     caratula: "09-portafolio-v2.png",
     caratulaIndex: 9,
     lenguajes: ["01-l-css.png", "02-l-html.png", "03-l-javascript.svg"],
     lenguajesIndex: [1, 2, 3],
-    tecnologias: ["04-t-node.png", "05-t-react.svg", "10-t-nextjs.svg", "11-t-postgresql.png"],
-    tecnologiasIndex: [4, 5, 10, 11],
+    tecnologias: ["04-t-node.png", "05-t-react.svg", "10-t-nextjs.svg"],
+    tecnologiasIndex: [4, 5, 10],
     web: [
       { nombre: "Deploy Portafolio 2.0", link: "http://www.francisco-dev.cl/"},
       { nombre: "Deploy Portafolio 2.0", link: "https://portafolionext13.vercel.app/"},
