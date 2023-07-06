@@ -21,56 +21,56 @@ export const myExperience = {
 }
 
 export const myLinks = [
-  {
-    id: 1,
-    nombre: "My Links",
-    orden: 1,
-    estado: true,
-    links: [
-      {
-        nombre: "Portafolio",
-        link: "https://portafolionext13.vercel.app/",
-        idLinkGrupo: 1,
-        estado: true
-      },
-      {
-        nombre: "Api Portafolio",
-        link: "https://kartax.netlify.app/",
-        idLinkGrupo: 1,
-        estado: true
-      },
-      {
-        nombre: "Kartax Demo",
-        link: "https://kartax-express-production.up.railway.app/",
-        idLinkGrupo: 1,
-        estado: true
-      },
-      {
-        nombre: "Api Kartax Demo",
-        link: "https://kartax-api-production.up.railway.app/",
-        idLinkGrupo: 1,
-        estado: true
-      },
-      {
-        nombre: "Api Demo",
-        link: "https://bsite.net/metalflap/index.html/",
-        idLinkGrupo: 1,
-        estado: true
-      },
-      {
-        nombre: "Cachureando",
-        link: "https://tdcachureando.netlify.app/",
-        idLinkGrupo: 1,
-        estado: true
-      },
-      {
-        nombre: "Api Cachureando",
-        link: "https://slifer.bsite.net/index.html/",
-        idLinkGrupo: 1,
-        estado: true
-      }
-    ]
-  },
+  // {
+  //   id: 1,
+  //   nombre: "My Links",
+  //   orden: 1,
+  //   estado: true,
+  //   links: [
+  //     {
+  //       nombre: "Portafolio",
+  //       link: "https://portafolionext13.vercel.app/",
+  //       idLinkGrupo: 1,
+  //       estado: true
+  //     },
+  //     {
+  //       nombre: "Api Portafolio",
+  //       link: "https://kartax.netlify.app/",
+  //       idLinkGrupo: 1,
+  //       estado: true
+  //     },
+  //     {
+  //       nombre: "Kartax Demo",
+  //       link: "https://kartax-express-production.up.railway.app/",
+  //       idLinkGrupo: 1,
+  //       estado: true
+  //     },
+  //     {
+  //       nombre: "Api Kartax Demo",
+  //       link: "https://kartax-api-production.up.railway.app/",
+  //       idLinkGrupo: 1,
+  //       estado: true
+  //     },
+  //     {
+  //       nombre: "Api Demo",
+  //       link: "https://bsite.net/metalflap/index.html/",
+  //       idLinkGrupo: 1,
+  //       estado: true
+  //     },
+  //     {
+  //       nombre: "Cachureando",
+  //       link: "https://tdcachureando.netlify.app/",
+  //       idLinkGrupo: 1,
+  //       estado: true
+  //     },
+  //     {
+  //       nombre: "Api Cachureando",
+  //       link: "https://slifer.bsite.net/index.html/",
+  //       idLinkGrupo: 1,
+  //       estado: true
+  //     }
+  //   ]
+  // },
   {
     id: 2,
     nombre: "Links for Learning",
@@ -112,7 +112,13 @@ export const myLinks = [
         link: "https://uiverse.io/all/",
         idLinkGrupo: 2,
         estado: true
-      }
+      },
+      {
+        nombre: "DevDocs",
+        link: "https://devdocs.io/",
+        idLinkGrupo: 2,
+        estado: true
+      },
     ]
   },
   {
@@ -156,7 +162,13 @@ export const myLinks = [
         link: "https://dev.azure.com/",
         idLinkGrupo: 3,
         estado: true
-      }
+      },
+      {
+        nombre: "Linode",
+        link: "https://www.linode.com/es/",
+        idLinkGrupo: 3,
+        estado: true
+      },
     ]
   },
   {
@@ -200,7 +212,13 @@ export const myLinks = [
         link: "https://convertio.co/es/",
         idLinkGrupo: 4,
         estado: true
-      }
+      },
+      {
+        nombre: "SoftIcons",
+        link: "https://www.softicons.com/",
+        idLinkGrupo: 4,
+        estado: true
+      },
     ]
   },
   {
@@ -232,7 +250,25 @@ export const myLinks = [
         link: "https://codepen.io/",
         idLinkGrupo: 5,
         estado: true
-      }
+      },
+      {
+        nombre: "Canva",
+        link: "https://www.canva.com/",
+        idLinkGrupo: 5,
+        estado: true
+      },
+      {
+        nombre: "Songsterr",
+        link: "https://www.songsterr.com/",
+        idLinkGrupo: 5,
+        estado: true
+      },
+      {
+        nombre: "Mixamo",
+        link: "https://www.mixamo.com/#/",
+        idLinkGrupo: 5,
+        estado: true
+      },
     ]
   },
   {
