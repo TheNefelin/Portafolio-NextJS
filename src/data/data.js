@@ -269,6 +269,12 @@ export const myLinks = [
         idLinkGrupo: 5,
         estado: true
       },
+      {
+        nombre: "Jira",
+        link: "https://www.atlassian.com/es/software/jira",
+        idLinkGrupo: 5,
+        estado: true
+      },
     ]
   },
   {
