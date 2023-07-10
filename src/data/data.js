@@ -354,7 +354,7 @@ export const myProjects = [
     tecnologiasIndex: [1],
     web: [],
     gitHub: [
-      { nombre: "Repo Arduino DHT Monitoring", link: "https://github.com/TheNefelin/DHT/tree/master/DHT" }
+      { nombre: "Repo Arduino DHT Monitoring", link: "https://github.com/TheNefelin/DHT/tree/master/DHT" },
     ]
   },
   {
@@ -368,7 +368,7 @@ export const myProjects = [
     tecnologiasIndex: [1],
     web: [],
     gitHub: [
-      { nombre: "Repo Transbank POS v1", link: "https://github.com/TheNefelin/Transbank-POS-v1" }
+      { nombre: "Repo Transbank POS v1", link: "https://github.com/TheNefelin/Transbank-POS-v1" },
     ]
   },
   {
@@ -396,9 +396,11 @@ export const myProjects = [
     tecnologiasIndex: [1, 6, 8],
     web: [
       { nombre: "Deploy Portafolio", link: "https://nefelin-portafolio.netlify.app" },
+      { nombre: "Deploy Portafolio Api", link: "https://slifer.bsite.net/index.html" },
     ],
     gitHub: [
-      { nombre: "Repo Portafolio", link: "https://github.com/TheNefelin/portafolio-site" }
+      { nombre: "Repo Portafolio", link: "https://github.com/TheNefelin/portafolio-site" },
+      { nombre: "Repo Portafolio Api", link: "https://github.com/TheNefelin/portafolio_api.NETCore6" },
     ]
   },
   {
@@ -430,7 +432,7 @@ export const myProjects = [
       { nombre: "Deploy Components v1.0", link: "https://nefelin-components.netlify.app" },
     ],
     gitHub: [
-      { nombre: "Repo Components v1.0", link: "https://github.com/TheNefelin/my-web-components" }
+      { nombre: "Repo Components v1.0", link: "https://github.com/TheNefelin/my-web-components" },
     ]
   },
   {
@@ -438,15 +440,17 @@ export const myProjects = [
     orden: 1,
     caratula: "03-tecno-chile.jpg",
     caratulaIndex: 3,
-    lenguajes: ["01-l-css.png", "02-l-html.png", "03-l-javascript.svg"],
-    lenguajesIndex: [1, 2, 3],
-    tecnologias: ["08-t-vs-code.png"],
-    tecnologiasIndex: [8],
+    lenguajes: ["00-l-csharp.svg", "01-l-css.png", "02-l-html.png", "03-l-javascript.svg"],
+    lenguajesIndex: [0, 1, 2, 3],
+    tecnologias: ["01-t-dotnet.svg", "06-t-sql-server.png", "08-t-vs-code.png"],
+    tecnologiasIndex: [1, 6, 8],
     web: [
       { nombre: "Deploy Tecno Chile v1.0", link: "https://tecnochile.netlify.app" },
+      { nombre: "Deploy Tecno Chile v1.0 Api", link: "https://slifer.bsite.net/index.html" },
     ],
     gitHub: [
-      { nombre: "Repo Tecno Chile v1.0", link: "https://github.com/TheNefelin/td_trabajo_grupal_03" }
+      { nombre: "Repo Tecno Chile v1.0", link: "https://github.com/TheNefelin/td_trabajo_grupal_03" },
+      { nombre: "Repo Tecno Chile v1.0 Api", link: "https://github.com/TheNefelin/td_api.NetCore6" },
     ]
   },
 ]
