@@ -269,12 +269,6 @@ export const myLinks = [
         idLinkGrupo: 5,
         estado: true
       },
-      {
-        nombre: "Jira",
-        link: "https://www.atlassian.com/es/software/jira",
-        idLinkGrupo: 5,
-        estado: true
-      },
     ]
   },
   {
@@ -284,11 +278,61 @@ export const myLinks = [
     estado: true,
     links: [
       {
+        nombre: "LiterallyAnything",
+        link: "https://www.literallyanything.io/",
+        idLinkGrupo: 6,
+        estado: true
+      },
+      {
         nombre: "ChatGPT",
         link: "https://chat.openai.com/",
         idLinkGrupo: 6,
         estado: true
-      }
+      },
+      {
+        nombre: "BlackBox",
+        link: "https://www.useblackbox.io/",
+        idLinkGrupo: 6,
+        estado: true
+      },
+      {
+        nombre: "AgentGPT",
+        link: "https://agentgpt.reworkd.ai/es",
+        idLinkGrupo: 6,
+        estado: true
+      },
+    ]
+  },
+  {
+    id: 7,
+    nombre: "Agile",
+    orden: 7,
+    estado: true,
+    links: [
+      {
+        nombre: "Jira",
+        link: "https://www.atlassian.com/es/software/jira/",
+        idLinkGrupo: 7,
+        estado: true
+      },
+      {
+        nombre: "Trello",
+        link: "https://trello.com/es/",
+        idLinkGrupo: 7,
+        estado: true
+      },
+      {
+        nombre: "ClickUp",
+        link: "https://clickup.com/",
+        idLinkGrupo: 7,
+        estado: true
+      },
+      {
+        nombre: "Asana",
+        link: "https://asana.com/es/",
+        idLinkGrupo: 7,
+        estado: true
+      },
     ]
   }
 ]
