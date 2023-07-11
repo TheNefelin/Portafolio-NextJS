@@ -521,6 +521,7 @@ export const myYoutube = [
   { nombre: "Jam-Covid", videoId: "0WsjRYgZMzs" },
   { nombre: "Sky Lagoon", videoId: "qUYQzlj_580" },
   { nombre: "Valhalla", videoId: "ktCw2CfWeTA"},
+  { nombre: "Yu-Gi-Oh", videoId: "2q9liMSxOcE"},
   { nombre: "Monster Hunter", videoId: "yPKbPUM9RRc"},
   { nombre: "Final Fantasy XV", videoId: "3JlJ2fsOQnU"},
 ]
