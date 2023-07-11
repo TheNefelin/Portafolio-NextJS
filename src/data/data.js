@@ -301,6 +301,24 @@ export const myLinks = [
         idLinkGrupo: 6,
         estado: true
       },
+      {
+        nombre: "ElevenLabs",
+        link: "https://beta.elevenlabs.io/",
+        idLinkGrupo: 6,
+        estado: true
+      },
+      {
+        nombre: "Podcast",
+        link: "https://podcast.adobe.com/enhance",
+        idLinkGrupo: 6,
+        estado: true
+      },
+      {
+        nombre: "Leonardo",
+        link: "https://leonardo.ai/",
+        idLinkGrupo: 6,
+        estado: true
+      },
     ]
   },
   {
@@ -440,7 +458,7 @@ export const myProjects = [
     tecnologiasIndex: [1, 6, 8],
     web: [
       { nombre: "Deploy Portafolio", link: "https://nefelin-portafolio.netlify.app" },
-      { nombre: "Deploy Portafolio Api", link: "https://slifer.bsite.net/index.html" },
+      { nombre: "Deploy Portafolio Api", link: "https://bsite.net/metalflap/index.html" },
     ],
     gitHub: [
       { nombre: "Repo Portafolio", link: "https://github.com/TheNefelin/portafolio-site" },
