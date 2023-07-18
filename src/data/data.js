@@ -295,6 +295,12 @@ export const myLinks = [
     estado: true,
     links: [
       {
+        nombre: "Claude 2",
+        link: "https://claude.ai",
+        idLinkGrupo: 6,
+        estado: true
+      },
+      {
         nombre: "LiterallyAnything",
         link: "https://www.literallyanything.io/",
         idLinkGrupo: 6,
