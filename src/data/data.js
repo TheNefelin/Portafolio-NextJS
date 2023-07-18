@@ -280,6 +280,12 @@ export const myLinks = [
         idLinkGrupo: 5,
         estado: true
       },
+      {
+        nombre: "PublicAPI",
+        link: "https://publicapi.dev/",
+        idLinkGrupo: 5,
+        estado: true
+      },
     ]
   },
   {
