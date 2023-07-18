@@ -234,6 +234,11 @@ export const myLinks = [
     estado: true,
     links: [
       {
+        nombre: "PlayCode",
+        link: "https://playcode.io/",
+        idLinkGrupo: 5,
+        estado: true
+      },      {
         nombre: "GitHub",
         link: "https://github.com/TheNefelin/",
         idLinkGrupo: 5,
