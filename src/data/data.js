@@ -78,6 +78,12 @@ export const myLinks = [
     estado: true,
     links: [
       {
+        nombre: "CodeDex",
+        link: "https://www.codedex.io/",
+        idLinkGrupo: 2,
+        estado: true
+      },
+      {
         nombre: "w3schools",
         link: "https://www.w3schools.com/",
         idLinkGrupo: 2,
