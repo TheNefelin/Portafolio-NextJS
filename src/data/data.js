@@ -417,7 +417,7 @@ export const myProjects = [
     gitHub: [ ]
   },
   {
-    nombre: "Kartax v2.0 (SERVER DOWN)",
+    nombre: "Kartax v2.0",
     orden: 8,
     caratula: "08-kartax-v2.png",
     caratulaIndex: 8,
@@ -426,6 +426,7 @@ export const myProjects = [
     tecnologias: ["04-t-node.png", "11-t-postgresql.png"],
     tecnologiasIndex: [4, 11],
     web: [
+      { nombre: "Deploy Kartax v2.0 app", link: "https://kartax-express-production.up.railway.app/kartax/1" },
       { nombre: "Deploy Kartax v2.0", link: "https://kartax-express-production.up.railway.app/" },
       { nombre: "Deploy Kartax API", link: "https://kartax-api-production.up.railway.app/" },
     ],
