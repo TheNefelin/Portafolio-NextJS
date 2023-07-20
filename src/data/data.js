@@ -402,7 +402,7 @@ export const myProjects = [
   //   ]
   // },
   {
-    nombre: "Portafolio 2.0",
+    nombre: "Portafolio v2.0",
     orden: 9,
     caratula: "09-portafolio-v2.png",
     caratulaIndex: 9,
