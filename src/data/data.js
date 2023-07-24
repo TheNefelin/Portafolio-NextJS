@@ -402,7 +402,7 @@ export const myProjects = [
   //   ]
   // },
   {
-    nombre: "Kartax v3.0",
+    nombre: "Kartax v3.0 (Developing...)",
     orden: 10,
     caratula: "00-en-desarrollo.gif",
     caratulaIndex: 0,
@@ -411,11 +411,10 @@ export const myProjects = [
     tecnologias: ["10-t-nextjs.svg", "06-t-sql-server.png", "08-t-vs-code.png"],
     tecnologiasIndex: [10, 6, 8],
     web: [
+      { nombre: "Deploy Kartax v3.0 app ", link: "https://kartax-next13.vercel.app/" },
       { nombre: "Deploy Kartax v3.0 API ", link: "https://kartax-api-py.vercel.app/" },
     ],
-    gitHub: [
-      { nombre: "Repo Kartax v3.0 API", link: "https://github.com/TheNefelin/kartax-api-py" },
-    ]
+    gitHub: [ ]
   },
   {
     nombre: "Portafolio v2.0",
