@@ -398,7 +398,7 @@ export const myProjects = [
   //     { nombre: "Deploy ", link: ""},
   //   ],
   //   gitHub: [
-  //     { nombre: "Repo ", link: ""}
+  //     { nombre: "Repo ", link: ""},
   //   ]
   // },
   {
@@ -408,13 +408,13 @@ export const myProjects = [
     caratulaIndex: 0,
     lenguajes: ["01-l-css.png", "02-l-html.png", "03-l-javascript.svg", "05-l-python.png"],
     lenguajesIndex: [1, 2, 3, 5],
-    tecnologias: ["06-t-sql-server.png", "08-t-vs-code.png", "10-t-nextjs.svg"],
-    tecnologiasIndex: [6, 8, 10],
+    tecnologias: ["06-t-sql-server.png", "10-t-nextjs.svg", "08-t-vs-code.png"],
+    tecnologiasIndex: [6, 10, 8],
     web: [
-      { nombre: "Deploy ", link: ""},
+      { nombre: "Deploy Kartax v3.0 API ", link: "https://kartax-api-py.vercel.app/" },
     ],
     gitHub: [
-      { nombre: "Repo ", link: ""}
+      { nombre: "Repo Kartax v3.0 API", link: "https://github.com/TheNefelin/kartax-api-py" },
     ]
   },
   {
@@ -427,8 +427,8 @@ export const myProjects = [
     tecnologias: ["04-t-node.png", "05-t-react.svg", "10-t-nextjs.svg"],
     tecnologiasIndex: [4, 5, 10],
     web: [
-      { nombre: "Deploy Portafolio 2.0", link: "http://www.francisco-dev.cl/"},
-      { nombre: "Deploy Portafolio 2.0", link: "https://portafolionext13.vercel.app/"},
+      { nombre: "Deploy Portafolio v2.0", link: "http://www.francisco-dev.cl/" },
+      { nombre: "Deploy Portafolio v2.0", link: "https://portafolionext13.vercel.app/" },
     ],
     gitHub: [ ]
   },
@@ -444,11 +444,11 @@ export const myProjects = [
     web: [
       { nombre: "Deploy Kartax v2.0 app", link: "https://kartax-express-production.up.railway.app/kartax/1" },
       { nombre: "Deploy Kartax v2.0", link: "https://kartax-express-production.up.railway.app/" },
-      { nombre: "Deploy Kartax API", link: "https://kartax-api-production.up.railway.app/" },
+      { nombre: "Deploy Kartax v2.0 API", link: "https://kartax-api-production.up.railway.app/" },
     ],
     gitHub: [
       { nombre: "Repo Kartax v2.0", link: "https://github.com/TheNefelin/kartax-express" },
-      { nombre: "Repo Kartax API", link: "https://github.com/TheNefelin/kartax-api" },
+      { nombre: "Repo Kartax v2.0 API", link: "https://github.com/TheNefelin/kartax-api" },
     ]
   },
   {
