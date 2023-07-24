@@ -408,8 +408,8 @@ export const myProjects = [
     caratulaIndex: 0,
     lenguajes: ["01-l-css.png", "02-l-html.png", "03-l-javascript.svg", "05-l-python.png"],
     lenguajesIndex: [1, 2, 3, 5],
-    tecnologias: ["06-t-sql-server.png", "10-t-nextjs.svg", "08-t-vs-code.png"],
-    tecnologiasIndex: [6, 10, 8],
+    tecnologias: ["10-t-nextjs.svg", "06-t-sql-server.png", "08-t-vs-code.png"],
+    tecnologiasIndex: [10, 6, 8],
     web: [
       { nombre: "Deploy Kartax v3.0 API ", link: "https://kartax-api-py.vercel.app/" },
     ],
