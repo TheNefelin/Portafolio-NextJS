@@ -402,6 +402,22 @@ export const myProjects = [
   //   ]
   // },
   {
+    nombre: "Kartax v3.0",
+    orden: 10,
+    caratula: "00-en-desarrollo.gif",
+    caratulaIndex: 0,
+    lenguajes: ["01-l-css.png", "02-l-html.png", "03-l-javascript.svg", "05-l-python.png"],
+    lenguajesIndex: [1, 2, 3, 5],
+    tecnologias: ["06-t-sql-server.png", "08-t-vs-code.png", "10-t-nextjs.svg"],
+    tecnologiasIndex: [6, 8, 10],
+    web: [
+      { nombre: "Deploy ", link: ""},
+    ],
+    gitHub: [
+      { nombre: "Repo ", link: ""}
+    ]
+  },
+  {
     nombre: "Portafolio v2.0",
     orden: 9,
     caratula: "09-portafolio-v2.png",
