@@ -301,6 +301,18 @@ export const myLinks = [
     estado: true,
     links: [
       {
+        nombre: "Google Bard",
+        link: "https://bard.google.com/",
+        idLinkGrupo: 6,
+        estado: true
+      },
+      {
+        nombre: "ChatGPT",
+        link: "https://chat.openai.com/",
+        idLinkGrupo: 6,
+        estado: true
+      },
+      {
         nombre: "Claude 2",
         link: "https://claude.ai",
         idLinkGrupo: 6,
@@ -309,12 +321,6 @@ export const myLinks = [
       {
         nombre: "LiterallyAnything",
         link: "https://www.literallyanything.io/",
-        idLinkGrupo: 6,
-        estado: true
-      },
-      {
-        nombre: "ChatGPT",
-        link: "https://chat.openai.com/",
         idLinkGrupo: 6,
         estado: true
       },
