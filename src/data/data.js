@@ -33,42 +33,6 @@ export const myLinks = [
   //       idLinkGrupo: 1,
   //       estado: true
   //     },
-  //     {
-  //       nombre: "Api Portafolio",
-  //       link: "https://kartax.netlify.app/",
-  //       idLinkGrupo: 1,
-  //       estado: true
-  //     },
-  //     {
-  //       nombre: "Kartax Demo",
-  //       link: "https://kartax-express-production.up.railway.app/",
-  //       idLinkGrupo: 1,
-  //       estado: true
-  //     },
-  //     {
-  //       nombre: "Api Kartax Demo",
-  //       link: "https://kartax-api-production.up.railway.app/",
-  //       idLinkGrupo: 1,
-  //       estado: true
-  //     },
-  //     {
-  //       nombre: "Api Demo",
-  //       link: "https://bsite.net/metalflap/index.html/",
-  //       idLinkGrupo: 1,
-  //       estado: true
-  //     },
-  //     {
-  //       nombre: "Cachureando",
-  //       link: "https://tdcachureando.netlify.app/",
-  //       idLinkGrupo: 1,
-  //       estado: true
-  //     },
-  //     {
-  //       nombre: "Api Cachureando",
-  //       link: "https://slifer.bsite.net/index.html/",
-  //       idLinkGrupo: 1,
-  //       estado: true
-  //     }
   //   ]
   // },
   {
@@ -418,7 +382,7 @@ export const myProjects = [
     tecnologiasIndex: [10, 6, 8],
     web: [
       { nombre: "Deploy Kartax v3.0 app ", link: "https://kartax-next13.vercel.app/" },
-      { nombre: "Deploy Kartax v3.0 API ", link: "https://kartax-api-py.vercel.app/" },
+      { nombre: "Deploy Kartax v3.0 API ", link: "https://kartax-api-py.vercel.app/docs" },
     ],
     gitHub: [ ]
   },
