@@ -21,20 +21,50 @@ export const myExperience = {
 }
 
 export const myLinks = [
-  // {
-  //   id: 1,
-  //   nombre: "My Links",
-  //   orden: 1,
-  //   estado: true,
-  //   links: [
-  //     {
-  //       nombre: "Portafolio",
-  //       link: "https://portafolionext13.vercel.app/",
-  //       idLinkGrupo: 1,
-  //       estado: true
-  //     },
-  //   ]
-  // },
+  {
+    id: 1,
+    nombre: "Framework",
+    orden: 1,
+    estado: true,
+    links: [
+      {
+        nombre: "Strapi",
+        link: "https://strapi.io/",
+        idLinkGrupo: 1,
+        estado: true
+      },
+      {
+        nombre: "Mui",
+        link: "https://mui.com/",
+        idLinkGrupo: 1,
+        estado: true
+      },
+      {
+        nombre: "Tailwindcss",
+        link: "https://tailwindcss.com/",
+        idLinkGrupo: 1,
+        estado: true
+      },
+      {
+        nombre: "NextJS",
+        link: "https://nextjs.org/",
+        idLinkGrupo: 1,
+        estado: true
+      },
+      {
+        nombre: "NextAuth",
+        link: "https://next-auth.js.org/",
+        idLinkGrupo: 1,
+        estado: true
+      },
+      {
+        nombre: "FastAPI",
+        link: "https://fastapi.tiangolo.com/",
+        idLinkGrupo: 1,
+        estado: true
+      },
+    ]
+  },
   {
     id: 2,
     nombre: "Links for Learning",
@@ -253,6 +283,12 @@ export const myLinks = [
       {
         nombre: "PublicAPI",
         link: "https://publicapi.dev/",
+        idLinkGrupo: 5,
+        estado: true
+      },
+      {
+        nombre: "LabCenter",
+        link: "https://www.labcenter.com/",
         idLinkGrupo: 5,
         estado: true
       },
