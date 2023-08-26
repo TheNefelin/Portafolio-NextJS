@@ -238,7 +238,8 @@ export const myLinks = [
         link: "https://playcode.io/",
         idLinkGrupo: 5,
         estado: true
-      },      {
+      }, 
+      {
         nombre: "GitHub",
         link: "https://github.com/TheNefelin/",
         idLinkGrupo: 5,
@@ -571,8 +572,8 @@ export const myProjects = [
 export const myYoutube = [
   { nombre: "Jam-Covid", videoId: "0WsjRYgZMzs" },
   { nombre: "Sky Lagoon", videoId: "qUYQzlj_580" },
-  { nombre: "Valhalla", videoId: "ktCw2CfWeTA"},
-  { nombre: "Yu-Gi-Oh", videoId: "2q9liMSxOcE"},
-  { nombre: "Monster Hunter", videoId: "yPKbPUM9RRc"},
-  { nombre: "Final Fantasy XV", videoId: "3JlJ2fsOQnU"},
+  { nombre: "Valhalla", videoId: "ktCw2CfWeTA" },
+  { nombre: "Yu-Gi-Oh", videoId: "2q9liMSxOcE" },
+  { nombre: "Monster Hunter", videoId: "yPKbPUM9RRc" },
+  { nombre: "Final Fantasy XV", videoId: "3JlJ2fsOQnU" },
 ]
