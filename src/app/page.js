@@ -1,5 +1,6 @@
 import styles from './page.module.css'
 import imgBanner from "@/assets/background/fondo_banner.jpg"
+// import imgBanner from "@/assets/background/fondo_space.png"
 import imgMusic from "@/assets/background/fondo_music.jpg"
 import Link from 'next/link'
 
