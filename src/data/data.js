@@ -63,6 +63,12 @@ export const myLinks = [
         idLinkGrupo: 1,
         estado: true
       },
+      {
+        nombre: "Tremor",
+        link: "https://www.tremor.so/",
+        idLinkGrupo: 1,
+        estado: true
+      },
     ]
   },
   {
@@ -116,6 +122,12 @@ export const myLinks = [
       {
         nombre: "DevDocs",
         link: "https://devdocs.io/",
+        idLinkGrupo: 2,
+        estado: true
+      },
+      {
+        nombre: "WebDev",
+        link: "https://web.dev/",
         idLinkGrupo: 2,
         estado: true
       },
@@ -290,6 +302,12 @@ export const myLinks = [
       {
         nombre: "LabCenter",
         link: "https://www.labcenter.com/",
+        idLinkGrupo: 5,
+        estado: true
+      },
+      {
+        nombre: "Oklch",
+        link: "https://oklch.com/",
         idLinkGrupo: 5,
         estado: true
       },
