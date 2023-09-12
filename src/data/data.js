@@ -46,6 +46,12 @@ export const myLinks = [
         estado: true
       },
       {
+        nombre: "DaisyUI",
+        link: "https://daisyui.com/",
+        idLinkGrupo: 1,
+        estado: true
+      },
+      {
         nombre: "NextJS",
         link: "https://nextjs.org/",
         idLinkGrupo: 1,
