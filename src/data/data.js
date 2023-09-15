@@ -432,6 +432,23 @@ export const myProjects = [
   //     { nombre: "Repo ", link: ""},
   //   ]
   // },
+
+  {
+    nombre: "Guides for games",
+    orden: 11,
+    caratula: "00-en-desarrollo.gif",
+    caratulaIndex: 0,
+    lenguajes: ["01-l-css.png", "02-l-html.png", "06-l-typescript.svg"],
+    lenguajesIndex: [1, 2, 6],
+    tecnologias: ["10-t-nextjs.svg", "08-t-vs-code.png"],
+    tecnologiasIndex: [10, 8],
+    web: [
+      { nombre: "Deploy Guia", link: "https://guias-juegos-next13-ts.vercel.app/"},
+    ],
+    gitHub: [
+      { nombre: "Repo Guia", link: "https://github.com/TheNefelin/guias-juegos-next13-ts/"},
+    ]
+  },
   {
     nombre: "Kartax v3.0 (Developing...)",
     orden: 10,
@@ -443,7 +460,7 @@ export const myProjects = [
     tecnologiasIndex: [10, 6, 8],
     web: [
       { nombre: "Deploy Kartax v3.0 app ", link: "https://kartax-next13.vercel.app/" },
-      { nombre: "Deploy Kartax v3.0 API ", link: "https://kartax-api-py.vercel.app/docs" },
+      { nombre: "Deploy Kartax v3.0 API ", link: "https://kartax-api-py.vercel.app/docs/" },
     ],
     gitHub: [ ]
   },
