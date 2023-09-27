@@ -182,6 +182,12 @@ export const myLinks = [
         estado: true
       },
       {
+        nombre: "DigitalOcean",
+        link: "https://www.digitalocean.com/",
+        idLinkGrupo: 3,
+        estado: true
+      },
+      {
         nombre: "Linode",
         link: "https://www.linode.com/es/",
         idLinkGrupo: 3,
