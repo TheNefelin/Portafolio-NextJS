@@ -6,9 +6,9 @@ export default function VideoYoutube(props) {
     <section className={styles.section}>
       {myYoutube.map((e, index) => (
         <iframe
+          frameBorder={0}
           key={index}
           type="text/html"
-          frameborder="0"
           src={`https://www.youtube.com/embed/${e.videoId}`}
         />
       ))}

@@ -97,7 +97,7 @@ export const myLinks = [
       },
       {
         nombre: "Scrimba",
-        link: "NULLhttps://scrimba.com/",
+        link: "https://scrimba.com/",
         idLinkGrupo: 2,
         estado: true
       },
@@ -415,6 +415,32 @@ export const myLinks = [
         nombre: "Asana",
         link: "https://asana.com/es/",
         idLinkGrupo: 7,
+        estado: true
+      },
+    ]
+  },
+  {
+    id: 8,
+    nombre: "My Links",
+    orden: 8,
+    estado: true,
+    links: [
+      {
+        nombre: "Mi Insignia",
+        link: "https://www.acreditta.com/credential/63c99def-c48d-4495-aab5-00a3158d10a0/",
+        idLinkGrupo: 8,
+        estado: true
+      },
+      {
+        nombre: "Get Onbrd",
+        link: "https://www.getonbrd.com/misempleos/",
+        idLinkGrupo: 8,
+        estado: true
+      },
+      {
+        nombre: "Maps",
+        link: "https://geekflare.com/es/geocoding-maps-api-solution/",
+        idLinkGrupo: 8,
         estado: true
       },
     ]
