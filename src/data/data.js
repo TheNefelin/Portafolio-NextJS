@@ -468,17 +468,19 @@ export const myProjects = [
   {
     nombre: "Guides for games",
     orden: 11,
-    caratula: "00-en-desarrollo.gif",
-    caratulaIndex: 0,
+    caratula: "11-guides-for-games.png",
+    caratulaIndex: 10,
     lenguajes: ["01-l-css.png", "02-l-html.png", "06-l-typescript.svg"],
     lenguajesIndex: [1, 2, 6],
-    tecnologias: ["10-t-nextjs.svg", "08-t-vs-code.png"],
-    tecnologiasIndex: [10, 8],
+    tecnologias: ["10-t-nextjs.svg", "06-t-sql-server.png", "08-t-vs-code.png"],
+    tecnologiasIndex: [10, 6, 8],
     web: [
       { nombre: "Deploy Guia", link: "https://guias-juegos-next13-ts.vercel.app/"},
     ],
     gitHub: [
       { nombre: "Repo Guia", link: "https://github.com/TheNefelin/guias-juegos-next13-ts/"},
+      { nombre: "Repo Api", link: "https://github.com/TheNefelin/portafolio_api.NETCore6/"},
+      { nombre: "Repo SQL Server", link: "https://github.com/TheNefelin/SQLServer/"},
     ]
   },
   {
