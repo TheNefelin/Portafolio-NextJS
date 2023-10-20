@@ -323,6 +323,12 @@ export const myLinks = [
         idLinkGrupo: 5,
         estado: true
       },
+      {
+        nombre: "Excalidraw",
+        link: "https://excalidraw.com/",
+        idLinkGrupo: 5,
+        estado: true
+      },
     ]
   },
   {
@@ -469,13 +475,14 @@ export const myProjects = [
     nombre: "Guides for games",
     orden: 11,
     caratula: "11-guides-for-games.png",
-    caratulaIndex: 10,
-    lenguajes: ["01-l-css.png", "02-l-html.png", "06-l-typescript.svg"],
-    lenguajesIndex: [1, 2, 6],
-    tecnologias: ["10-t-nextjs.svg", "06-t-sql-server.png", "08-t-vs-code.png"],
-    tecnologiasIndex: [10, 6, 8],
+    caratulaIndex: 11,
+    lenguajes: ["01-l-css.png", "02-l-html.png", "06-l-typescript.svg", "00-l-csharp.svg"],
+    lenguajesIndex: [1, 2, 6, 0],
+    tecnologias: ["10-t-nextjs.svg", "06-t-sql-server.png", "04-l-vbdot.png"],
+    tecnologiasIndex: [10, 6, 1],
     web: [
       { nombre: "Deploy Guia", link: "https://guias-juegos-next13-ts.vercel.app/"},
+      { nombre: "Deploy Api", link: "https://bsite.net/metalflap/index.html/"},
     ],
     gitHub: [
       { nombre: "Repo Guia", link: "https://github.com/TheNefelin/guias-juegos-next13-ts/"},
@@ -486,8 +493,8 @@ export const myProjects = [
   {
     nombre: "Kartax v3.0 (Developing...)",
     orden: 10,
-    caratula: "00-en-desarrollo.gif",
-    caratulaIndex: 0,
+    caratula: "10-kartax-v3.png",
+    caratulaIndex: 10,
     lenguajes: ["01-l-css.png", "02-l-html.png", "03-l-javascript.svg", "05-l-python.png"],
     lenguajesIndex: [1, 2, 3, 5],
     tecnologias: ["10-t-nextjs.svg", "06-t-sql-server.png", "08-t-vs-code.png"],
