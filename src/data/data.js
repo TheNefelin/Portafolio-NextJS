@@ -482,7 +482,7 @@ export const myProjects = [
     tecnologiasIndex: [10, 6, 1],
     web: [
       { nombre: "Deploy Guia", link: "https://guias-juegos-next13-ts.vercel.app/"},
-      { nombre: "Deploy Api", link: "https://bsite.net/metalflap/index.html/"},
+      { nombre: "Deploy Api", link: "https://bsite.net/metalflap/index.html"},
     ],
     gitHub: [
       { nombre: "Repo Guia", link: "https://github.com/TheNefelin/guias-juegos-next13-ts/"},
