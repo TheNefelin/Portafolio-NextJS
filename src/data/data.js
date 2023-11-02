@@ -59,13 +59,13 @@ export const myLinks = [
       },
       {
         nombre: "NextUI",
-        link: "https://nextjs.org/",
+        link: "https://nextui.org/",
         idLinkGrupo: 1,
         estado: true
       }, 
       {
         nombre: "NextAuth",
-        link: "https://nextui.org/",
+        link: "https://next-auth.js.org/",
         idLinkGrupo: 1,
         estado: true
       },
