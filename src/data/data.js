@@ -81,6 +81,12 @@ export const myLinks = [
         idLinkGrupo: 1,
         estado: true
       },
+      {
+        nombre: "Heroicons",
+        link: "https://heroicons.com/",
+        idLinkGrupo: 1,
+        estado: true
+      },
     ]
   },
   {
@@ -202,6 +208,12 @@ export const myLinks = [
       {
         nombre: "DonWeb",
         link: "https://donweb.com/es-cl/",
+        idLinkGrupo: 3,
+        estado: true
+      },
+      {
+        nombre: "Heroku",
+        link: "https://www.heroku.com/",
         idLinkGrupo: 3,
         estado: true
       },
