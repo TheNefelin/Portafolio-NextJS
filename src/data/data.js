@@ -488,7 +488,22 @@ export const myProjects = [
   //     { nombre: "Repo ", link: ""},
   //   ]
   // },
-
+  {
+    nombre: "Proceso Agiliza",
+    orden: 12,
+    caratula: "12-aguiliza.png",
+    caratulaIndex: 12,
+    lenguajes: ["01-l-css.png", "02-l-html.png", "06-l-typescript.svg"],
+    lenguajesIndex: [1, 2, 6],
+    tecnologias: ["10-t-nextjs.svg", "08-t-vs-code.png"],
+    tecnologiasIndex: [10, 8],
+    web: [
+      { nombre: "Deploy Agiliza", link: "https://agiliza-next14-ts.vercel.app"},
+    ],
+    gitHub: [
+      { nombre: "Repo Aguliza", link: "https://github.com/TheNefelin/agiliza-next14-ts"},
+    ]
+  },
   {
     nombre: "Guides for games",
     orden: 11,
