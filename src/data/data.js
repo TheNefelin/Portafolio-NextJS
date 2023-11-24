@@ -87,6 +87,12 @@ export const myLinks = [
         idLinkGrupo: 1,
         estado: true
       },
+      {
+        nombre: "Angular",
+        link: "https://angular.dev",
+        idLinkGrupo: 1,
+        estado: true
+      },
     ]
   },
   {
