@@ -521,11 +521,11 @@ export const myProjects = [
     tecnologiasIndex: [10, 6, 1],
     web: [
       { nombre: "Deploy Guia", link: "https://guias-juegos-next13-ts.vercel.app/"},
-      { nombre: "Deploy Api", link: "https://bsite.net/metalflap/index.html"},
+      { nombre: "Deploy api", link: "https://bsite.net/metalflap/index.html"},
     ],
     gitHub: [
       { nombre: "Repo Guia", link: "https://github.com/TheNefelin/guias-juegos-next13-ts/"},
-      { nombre: "Repo Api", link: "https://github.com/TheNefelin/portafolio_api.NETCore6/"},
+      { nombre: "Repo api", link: "https://github.com/TheNefelin/portafolio_api.NETCore6/"},
       { nombre: "Repo SQL Server", link: "https://github.com/TheNefelin/SQLServer/"},
     ]
   },
@@ -540,9 +540,12 @@ export const myProjects = [
     tecnologiasIndex: [10, 6, 8],
     web: [
       { nombre: "Deploy Kartax v3.0 app ", link: "https://kartax-next13.vercel.app/" },
-      { nombre: "Deploy Kartax v3.0 API ", link: "https://kartax-api-py.vercel.app/docs/" },
+      { nombre: "Deploy Kartax v3.0 api ", link: "https://kartax-api-py.vercel.app/docs/" },
     ],
-    gitHub: [ ]
+    gitHub: [ 
+      { nombre: "Repo Kartax v3.0 app", link: "https://github.com/TheNefelin/kartax-next13"},
+      { nombre: "Repo Kartax v3.0 api", link: "https://github.com/TheNefelin/kartax-api-py"},
+    ]
   },
   {
     nombre: "Portafolio v2.0",
@@ -571,11 +574,11 @@ export const myProjects = [
     web: [
       { nombre: "Deploy Kartax v2.0 app", link: "https://kartax-express-production.up.railway.app/kartax/1" },
       { nombre: "Deploy Kartax v2.0", link: "https://kartax-express-production.up.railway.app/" },
-      { nombre: "Deploy Kartax v2.0 API", link: "https://kartax-api-production.up.railway.app/" },
+      { nombre: "Deploy Kartax v2.0 api", link: "https://kartax-api-production.up.railway.app/" },
     ],
     gitHub: [
       { nombre: "Repo Kartax v2.0", link: "https://github.com/TheNefelin/kartax-express" },
-      { nombre: "Repo Kartax v2.0 API", link: "https://github.com/TheNefelin/kartax-api" },
+      { nombre: "Repo Kartax v2.0 api", link: "https://github.com/TheNefelin/kartax-api" },
     ]
   },
   {
@@ -631,11 +634,11 @@ export const myProjects = [
     tecnologiasIndex: [1, 6, 8],
     web: [
       { nombre: "Deploy Portafolio", link: "https://nefelin-portafolio.netlify.app" },
-      { nombre: "Deploy Portafolio Api", link: "https://bsite.net/metalflap/index.html" },
+      { nombre: "Deploy Portafolio api", link: "https://bsite.net/metalflap/index.html" },
     ],
     gitHub: [
       { nombre: "Repo Portafolio", link: "https://github.com/TheNefelin/portafolio-site" },
-      { nombre: "Repo Portafolio Api", link: "https://github.com/TheNefelin/portafolio_api.NETCore6" },
+      { nombre: "Repo Portafolio api", link: "https://github.com/TheNefelin/portafolio_api.NETCore6" },
     ]
   },
   {
@@ -681,11 +684,11 @@ export const myProjects = [
     tecnologiasIndex: [1, 6, 8],
     web: [
       { nombre: "Deploy Tecno Chile v1.0", link: "https://tecnochile.netlify.app" },
-      { nombre: "Deploy Tecno Chile v1.0 Api", link: "https://slifer.bsite.net/index.html" },
+      { nombre: "Deploy Tecno Chile v1.0 api", link: "https://slifer.bsite.net/index.html" },
     ],
     gitHub: [
       { nombre: "Repo Tecno Chile v1.0", link: "https://github.com/TheNefelin/td_trabajo_grupal_03" },
-      { nombre: "Repo Tecno Chile v1.0 Api", link: "https://github.com/TheNefelin/td_api.NetCore6" },
+      { nombre: "Repo Tecno Chile v1.0 api", link: "https://github.com/TheNefelin/td_api.NetCore6" },
     ]
   },
 ]
