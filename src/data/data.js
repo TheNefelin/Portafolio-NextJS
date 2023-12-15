@@ -495,6 +495,25 @@ export const myProjects = [
   //   ]
   // },
   {
+    nombre: "Guides for games",
+    orden: 13,
+    caratula: "13-guides-for-games.png",
+    caratulaIndex: 13,
+    lenguajes: ["01-l-css.png", "02-l-html.png", "06-l-typescript.svg", "00-l-csharp.svg"],
+    lenguajesIndex: [1, 2, 6, 0],
+    tecnologias: ["12-t-angular.svg", "06-t-sql-server.png", "04-l-vbdot.png"],
+    tecnologiasIndex: [12, 6, 1],
+    web: [
+      { nombre: "Deploy Guia", link: "https://guias-juegos-ang17-thenefelin.vercel.app/"},
+      { nombre: "Deploy api", link: "https://bsite.net/metalflap/index.html"},
+    ],
+    gitHub: [
+      { nombre: "Repo Guia", link: "https://github.com/TheNefelin/guias-juegos-ang17"},
+      { nombre: "Repo api", link: "https://github.com/TheNefelin/portafolio_api.NETCore6/"},
+      { nombre: "Repo SQL Server", link: "https://github.com/TheNefelin/SQLServer/"},
+    ]
+  },
+  {
     nombre: "Proceso Agiliza",
     orden: 12,
     caratula: "12-aguiliza.png",
@@ -623,24 +642,24 @@ export const myProjects = [
     ],
     gitHub: []
   },
-  {
-    nombre: "Portafolio V1.0",
-    orden: 4,
-    caratula: "02-portafolio-v1.jpg",
-    caratulaIndex: 2,
-    lenguajes: ["00-l-csharp.svg", "01-l-css.png", "02-l-html.png", "03-l-javascript.svg"],
-    lenguajesIndex: [0, 1, 2, 3],
-    tecnologias: ["01-t-dotnet.svg", "06-t-sql-server.png", "08-t-vs-code.png"],
-    tecnologiasIndex: [1, 6, 8],
-    web: [
-      { nombre: "Deploy Portafolio", link: "https://nefelin-portafolio.netlify.app" },
-      { nombre: "Deploy Portafolio api", link: "https://bsite.net/metalflap/index.html" },
-    ],
-    gitHub: [
-      { nombre: "Repo Portafolio", link: "https://github.com/TheNefelin/portafolio-site" },
-      { nombre: "Repo Portafolio api", link: "https://github.com/TheNefelin/portafolio_api.NETCore6" },
-    ]
-  },
+  // {
+  //   nombre: "Portafolio V1.0",
+  //   orden: 4,
+  //   caratula: "02-portafolio-v1.jpg",
+  //   caratulaIndex: 2,
+  //   lenguajes: ["00-l-csharp.svg", "01-l-css.png", "02-l-html.png", "03-l-javascript.svg"],
+  //   lenguajesIndex: [0, 1, 2, 3],
+  //   tecnologias: ["01-t-dotnet.svg", "06-t-sql-server.png", "08-t-vs-code.png"],
+  //   tecnologiasIndex: [1, 6, 8],
+  //   web: [
+  //     { nombre: "Deploy Portafolio", link: "https://nefelin-portafolio.netlify.app" },
+  //     { nombre: "Deploy Portafolio api", link: "https://bsite.net/metalflap/index.html" },
+  //   ],
+  //   gitHub: [
+  //     { nombre: "Repo Portafolio", link: "https://github.com/TheNefelin/portafolio-site" },
+  //     { nombre: "Repo Portafolio api", link: "https://github.com/TheNefelin/portafolio_api.NETCore6" },
+  //   ]
+  // },
   {
     nombre: "Kartax v1.0",
     orden: 3,
