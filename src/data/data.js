@@ -504,7 +504,7 @@ export const myProjects = [
     tecnologias: ["12-t-angular.svg", "06-t-sql-server.png", "04-l-vbdot.png"],
     tecnologiasIndex: [12, 6, 1],
     web: [
-      { nombre: "Deploy Guia", link: "https://guias-juegos-ang17-thenefelin.vercel.app/"},
+      { nombre: "Deploy Guia", link: "https://guias-juegos-ang17.vercel.app/"},
       { nombre: "Deploy api", link: "https://bsite.net/metalflap/index.html"},
     ],
     gitHub: [
