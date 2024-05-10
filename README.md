@@ -1,3 +1,20 @@
+# Portafolio
+
+### Upgrade to NextJS 14
+```
+node --version
+npm --version
+
+npm i next@latest
+npm i react@latest react-dom@latest eslint-config-next@latest
+
+//if use typescript
+npm i @types/react@latest
+npm i @types/react-dom/latest
+
+npm update
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
